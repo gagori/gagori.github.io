@@ -3,8 +3,7 @@ layout: post
 title:  "[project3] idcard deidentification"
 ---
 
-# 비식별화를 위해 tesseract로 이미지의 개인정보를 식별하고 중요정보를 bbox로 가리는 연습입니다.
-
+# tesseract를 통해 이미지를 식별하고 bbox를 사용하여 주요정보를 가리는 것을 연습합니다.
 
 # tesseract 설치
   - https://velog.io/@latte_h/Tesseract
