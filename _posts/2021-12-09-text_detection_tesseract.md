@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "[project3] idcard deidentification"
+---
+
+# 비식별화를 위해 tesseract로 이미지의 개인정보를 식별해보는 연습입니다.
 
 ### tesseract 설치
   - https://velog.io/@latte_h/Tesseract
