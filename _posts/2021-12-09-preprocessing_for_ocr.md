@@ -1,38 +1,7 @@
-
-# tesseract 설치
-
-
-```python
-from google.colab import drive
-drive.mount("/content/drive")
-```
-
-
-```python
-!sudo apt install tesseract-ocr
-```
-
-
-```python
-!pip install pillow
-```
-
-
-```python
-!pip install pytesseract
-```
-
-### 한글깨짐 방지
-
-
-```python
-!sudo apt install tesseract-ocr-kor
-```
-
-
-```python
-!sudo apt install tesseract-ocr-script-hang
-```
+---
+layout: post
+title:  "[project3] idcard deidentification"
+---
 
 # Adaptive Threshold & Gaussian Blur
 
