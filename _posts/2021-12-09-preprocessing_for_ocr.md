@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[project3] idcard deidentification"
+title:  "[project3] preprocessing test"
 ---
 
 # Adaptive Threshold & Gaussian Blur
