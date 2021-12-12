@@ -87,7 +87,8 @@ def image_smoothening(img,_ThredholdCount=0):
 img = cv2.imread(img_file, 0) # gray scale 불러와야함.
 image_smoothening(img)
 ```
-![image](https://user-images.githubusercontent.com/86705085/145715814-ecd8cb1a-df2a-4258-a3a9-88e6c2e502db.png)
+![image](https://user-images.githubusercontent.com/86705085/145716883-673949e1-bbb7-4458-a5b1-ef35b8770fe6.png)
+
 
 
 
