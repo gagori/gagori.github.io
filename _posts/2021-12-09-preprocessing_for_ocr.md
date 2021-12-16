@@ -2,7 +2,9 @@
 layout: post
 title:  "[project3-2] preprocessing test"
 ---
-# text 인식률을 높이기위해 전처리과정이 필수적이다. 이번 포스트에서는 다양한 전처리기법을 시도해보고자 한다.
+# 다양한  
+text 인식률을 높이기위해 전처리과정이 필수적이다. 이번 포스트에서는 다양한 전처리기법을 시도해보고자 한다.
+
 
 
 # Adaptive Threshold
