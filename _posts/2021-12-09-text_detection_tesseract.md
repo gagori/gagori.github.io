@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[project3-1] idcard deidentification"
+title:  "[project3-3] idcard deidentification"
 ---
 
 # tesseract를 통해 이미지를 식별하고 bbox를 사용하여 주요정보를 가리는 것을 연습합니다.
