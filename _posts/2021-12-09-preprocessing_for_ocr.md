@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "[project3-2] preprocessing test"
+title:  "[project3-2] preprocessing "
+
 ---
-# 다양한  
+
 text 인식률을 높이기위해 전처리과정이 필수적이다. 이번 포스트에서는 다양한 전처리기법을 시도해보고자 한다.
 
 
 
-# Adaptive Threshold
+### Adaptive Threshold
 Global Threshold는 문턱 값을 하나의 이미지 전체에 적용시키는 반면
 Adaptive Threshold는 이미지의 구역구역마다 threshold를 실행 시켜줌. 
 따라서 빛의 밝기에 따라 사진의 명암이 달라져도 객체를 잘 인식할 수 있다.
@@ -25,7 +26,7 @@ thr2 = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BI
 
 
 
-# Gaussain Blur
+### Gaussain Blur
 Gaussian blur를 적용하면 히스토그램에서 확실한 봉우리를 만들고, 
 여기에 Otsu 알고리즘을 적용하여 문턱값을 구한 후 thresholding을 적용하면 보다 나은 Denoising이 된다.
 
@@ -66,7 +67,7 @@ thresholding(img_file)
 
 
 
-# Gaussain blur + Otsu binaryzation
+### Gaussain blur + Otsu binaryzation
 따라서 이후에서는 가우시안 필터링과 binaryzation성능이 좋았던 Otsu 방법을 사용하기로 한다.
 
 ```python
@@ -94,7 +95,7 @@ image_smoothening(img)
 
 
 
-# 전처리 후 Bounding Box
+### 전처리 후 Bounding Box
 이후에서는 운전면허 샘플이미지를 사용하여 테스트해보고자 한다.
 ```python
 '''
@@ -126,3 +127,4 @@ for idx, b in enumerate(boxes_num.splitlines()):
 cv2_imshow(img)
 ```
 ![image](https://user-images.githubusercontent.com/86705085/145716070-d208cb9a-c3e5-4335-93b5-47e6767135dc.png)
+
